@@ -5,15 +5,12 @@
 
 ## How to use?
 
-Sponsors are defined in `sponsors.json`.
+ 1. Update sponsors in [`placemat/sponsors/sponsors.json`](https://github.com/litrik/kcbj-placemat/blob/master/placemat/sponsors/sponsors.json).
+ 1. Execute
 
-Generate the PDF as follows:
-
-    ```
     ./gradlew run
-    ``` 
 
-The generated PDF file is located in `placemat/build/placemat.pdf`
+ 1. PDF file is generated in `placemat/build/placemat.pdf`
 
 ## License
 
