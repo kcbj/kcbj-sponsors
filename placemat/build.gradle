@@ -1,0 +1,20 @@
+repositories {
+    jcenter()
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.7
+
+mainClassName = "be.kcbj.placemat.Placemat"
+
+dependencies {
+
+    // https://github.com/itext/itextpdf
+    compile 'com.itextpdf:itextpdf:5.5.10'
+
+    // https://github.com/google/gson
+    compile 'org.immutables:gson:2.4.3'
+
+}

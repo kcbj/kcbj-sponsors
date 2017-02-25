@@ -1,0 +1,452 @@
+{
+  "sponsors": [
+    {
+      "name": "Tweedehandswinkel",
+      "name2": "Jan Verbinnen",
+      "address": "Liersesteenweg 67",
+      "address2": "Aarschot"
+    },
+    {
+      "name": "Bodygym",
+      "address": "Oude Mechelsebaan 84",
+      "address2": "Aarschot"
+    },
+    {
+      "name": "Electro Diggi",
+      "address": "Baalsesteenweg 48",
+      "address2": "Begijnendijk"
+    },
+    {
+      "name": "Notelteirs",
+      "name2": "Beenhouwerij",
+      "address": "Haltsetraat 27",
+      "address2": "Begijnendijk"
+    },
+    {
+      "name": "Van Rompaey",
+      "name2": "Hout & doe-het-zelf",
+      "address": "Liersesteenweg 130",
+      "address2": "Begijnendijk"
+    },
+    {
+      "name": "’t Fijnste IJs",
+      "address": "Liersesteenweg 155",
+      "address2": "Begijnendijk"
+    },
+    {
+      "twoRows": true,
+      "image": "bress.png",
+      "imageHeight": 50,
+      "address": "Belgian Real\nEstate Services",
+      "address2": "www.bress.be"
+    },
+    {
+      "name": "Garage Wouters",
+      "name2": "Toyota - Suzuki",
+      "address": "Liersesteenweg 309",
+      "address2": "Begijnendijk"
+    },
+    {
+      "twoRows": true,
+      "image": "bries.png",
+      "imageWidth": 84,
+      "name": "\nKoeltechnieken",
+      "address": "Spoorweg 22",
+      "address2": "Begijnendijk"
+    },
+    {
+      "name": "Boomkwekerij - Tuinaanleg",
+      "name2": "De Bruyn",
+      "address": "Vennestraat 6A",
+      "address2": "Begijnendijk"
+    },
+    {
+      "name": "Likeuren",
+      "name2": "De Gent",
+      "address": "C. Vissenaekensplein 12",
+      "address2": "Betekom"
+    },
+    {
+      "twoColumns": true,
+      "image": "norio.png",
+      "imageWidth": 110,
+      "address": "Better Android Apps - www.norio.be"
+    },
+    {
+      "name": "Bakkerij Nijs",
+      "name2": "Brood - Banket",
+      "address": "Prof. Scharpélaan 12",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Delvora",
+      "name2": "Pralines - Chocolade",
+      "address": "Prof. Scharpélaan 25",
+      "address2": "Betekom"
+    },
+    {
+      "twoRows": true,
+      "name": "Cafetaria",
+      "name2": "De Tumkens\n",
+      "address": "Pastoor Pitetlaan",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Gebr. Van Reeth",
+      "name2": "Dak - Sanitair",
+      "address": "Prof. Scharpélaan 108",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Het Tolhuis",
+      "name2": "dranken - wijnen",
+      "address": "Tremelosesteenweg 160",
+      "address2": "Baal"
+    },
+    {
+      "name": "Taverne",
+      "name2": "De Pelgrim",
+      "address": "Werchtersesteenweg 44",
+      "address2": "Betekom"
+    },
+    {
+      "name": "’t Pistoleeke",
+      "address": "Dorpstraat 66",
+      "address2": "Begijnendijk"
+    },
+    {
+      "name": "De Bruyn",
+      "name2": "Centrale Verwarming",
+      "address": "www.debruyn-nv.be"
+    },
+    {
+      "name": "Schrijnwerkerij",
+      "name2": "De Kurt",
+      "address": "Raystraat 41",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Plankenbrug",
+      "name2": "Brood-Banket-Charcuterie",
+      "address": "Plankenbrug 25",
+      "address2": "Begijnendijk"
+    },
+    {
+      "name": "Crauwels Banden",
+      "address": "Liersesteenweg 136",
+      "address2": "Begijnendijk"
+    },
+    {
+      "twoRows": true,
+      "name": "Pizza Da Roberto",
+      "name2": "woe en vrij 17u-21u",
+      "address": "Tremelosesteenweg 30",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Hair, Skin & Body",
+      "address": "Pater Damiaanstraat 12",
+      "address2": "Betekom"
+    },
+    {
+      "twoRows": true,
+      "imageWidth": 84,
+      "image": "kbc-mertens.png"
+    },
+    {
+      "name": "BSJ Sport",
+      "address": "Liersesteenweg 127/1",
+      "address2": "Aarschot"
+    },
+    {
+      "twoRows": true,
+      "name": "Biercentrale",
+      "name2": "Van Dijck",
+      "address": "Nobelstraat 149",
+      "address2": "Baal"
+    },
+    {
+      "name": "Ruitenwasser",
+      "name2": "De Wachter",
+      "address": "Raystraat 30",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Bike & Run Lab",
+      "address": "O.L. Vrouwstraat 35A",
+      "address2": "Betekom"
+    },
+    {
+    },
+    {
+      "name": "",
+      "name2": "",
+      "address": "",
+      "address2": ""
+    },
+    {
+      "name": "",
+      "name2": "",
+      "address": "",
+      "address2": ""
+    },
+    {
+      "name": "",
+      "name2": "",
+      "address": "",
+      "address2": ""
+    },
+    {
+      "name": "",
+      "name2": "",
+      "address": "",
+      "address2": ""
+    },
+    {
+      "name": "Gebroeders Nijs",
+      "name2": "Loon- en grondwerken",
+      "address": "Tremelosesteenweg 55",
+      "address2": "Betekom"
+    },
+    {
+      "twoRows": true,
+      "image": "immohome.png",
+      "imageHeight": 50,
+      "address": "Statieplein 14",
+      "address2": "Aarschot"
+    },
+    {
+      "name": "’t Wit Toreke",
+      "address": "Ter Heidelaan 97",
+      "address2": "Aarschot"
+    },
+    {
+      "name": "Feestzaal",
+      "name2": "Lindenhof",
+      "address": "Booischotstraat 1",
+      "address2": "Baal"
+    },
+    {
+      "name": "Proxy Delhaize",
+      "address": "Prof. Scharpélaan 19",
+      "address2": "Betekom"
+    },
+    {
+      "twoRows": true,
+      "image": "crelan.png",
+      "imageWidth": 80,
+      "name": "\n\nCrelan Aarschot",
+      "name2": "",
+      "address": "Schaluin 62",
+      "address2": "Aarschot"
+    },
+    {
+      "twoColumns": true,
+      "image": "act-unity.png",
+      "imageWidth": 110,
+      "name": "\nwww.act-unity.com"
+    },
+    {
+      "name": "AVEVE Tuincentrum",
+      "name2": "Thielemans",
+      "address": "Monnikstraat 26",
+      "address2": "Baal"
+    },
+    {
+      "name": "Doner Kebab",
+      "name2": "Sipan",
+      "address": "Prof. Scharpélaan 35",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Wasserij droogkuis",
+      "name2": "De Parel",
+      "address": "Liersesteenweg 43",
+      "address2": "Aarschot"
+    },
+    {
+      "name": "Carl’s Carwash",
+      "address": "Ter Heidelaan 45",
+      "address2": "Aarschot"
+    },
+    {
+      "name": "Microshop Computing",
+      "address": "Herseltsesteenweg 132",
+      "address2": "Aarschot"
+    },
+    {
+      "name": "Kapsalon",
+      "name2": "Jess",
+      "address": "Leuvensestraat 60",
+      "address2": "Aarschot"
+    },
+    {
+      "twoRows": true,
+      "image": "kbc.png",
+      "imageWidth": 56,
+      "name2": "Betekom - Begijnendijk",
+      "address": "C. Vissenaekensplein 13",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Droogkuis",
+      "name2": "Sneeuwvlokje",
+      "address": "Leuvensestraat 63",
+      "address2": "Aarschot"
+    },
+    {
+      "twoColumns": true,
+      "name": "Garage Smedts nv"
+    },
+    {
+      "name": "VDB Drinks",
+      "address": "Leuvensesteenweg 526",
+      "address2": "Gelrode"
+    },
+    {
+      "name": "AVEVE Tuincentrum",
+      "name2": "Thielemans",
+      "address": "Monnikstraat 26",
+      "address2": "Baal"
+    },
+    {
+      "name": "Kippenhoekje",
+      "address": "Turfweg 3",
+      "address2": "Baal"
+    },
+    {
+      "name": "Euro Decor",
+      "name2": "gordijnen-zonnewering",
+      "address": "Aarschotsesteenweg 140",
+      "address2": "Betekom"
+    },
+    {
+      "name": "MHT Michiels Haegemans",
+      "name2": "Bouwmaterialen",
+      "address": "Beekstraat 9",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Kapsalon",
+      "name2": "Chris",
+      "address": "Prof. Scharpélaan 94",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Belfius",
+      "name2": "Bank en verzekeringen",
+      "address": "C. Vissenaekensplein 6",
+      "address2": "Betekom"
+    },
+    {
+      "name": "broodjeszaak",
+      "name2": "’t Clubhuis",
+      "address": "Prof. Scharpélaan 13",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Lustrerie",
+      "name2": "Danckers-Verhaegen",
+      "address": "Grote Baan 109",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Ver Elst",
+      "name2": "Bloemenspeciaalzaak",
+      "address": "Prof. Scharpélaan 3",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Auto-onderdelen",
+      "name2": "Smet",
+      "address": "Prof. Scharpélaan 54",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Restaurant",
+      "name2": "Vital",
+      "address": "Leuvensesteenweg 525",
+      "address2": "Gelrode"
+    },
+    {
+      "name": "Meubelen Verhaegen",
+      "address": "Grote Baan 115",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Sweco Belgium",
+      "address": "Stationsstraat 52",
+      "address2": "2800 Mechelen"
+    },
+    {
+      "name": "GTC computers",
+      "name2": "Alle hard- en software",
+      "address": "Grote Baan 99",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Restaurant",
+      "name2": "HON YON",
+      "address": "Leuvensestraat 113",
+      "address2": "Aarschot"
+    },
+    {
+      "name": "Het Stoffenhoekje",
+      "address": "C. Vissenaekensplein 1",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Schoonheidsinstituut",
+      "name2": "Beau",
+      "address": "Prof. Scharpelaan 20",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Frituur Rond Punt",
+      "name2": "",
+      "address": "Professor Scharpélaan",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Belmaco",
+      "name2": "Grasmaaiers - Tuinmachines",
+      "address": "Betekomsesteenweg 99",
+      "address2": "Aarschot"
+    },
+    {
+      "name": "Kapper",
+      "name2": "Christophe Henri",
+      "address": "Leuvensesteenweg 204",
+      "address2": "Aarschot"
+    },
+    {
+      "name": "BNP Paribas Fortis",
+      "name2": "Begijnendijk - Betekom",
+      "address": "Betekomsesteenweg 6",
+      "address2": "3130 Begijnendijk"
+    },
+    {
+      "name": "Garage Nijs",
+      "address": "Prof. Scharpélaan 105",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Garage Van Der Elst",
+      "name2": "Audi en VW verdeler",
+      "address": "Ter Heidelaan 95",
+      "address2": "Aarschot"
+    },
+    {
+      "name": "Kapsalon",
+      "name2": "Kirsten",
+      "address": "O.L.Vrouwstraat 48",
+      "address2": "Betekom"
+    },
+    {
+      "name": "",
+      "name2": "",
+      "address": "",
+      "address2": ""
+    }
+  ]
+}
