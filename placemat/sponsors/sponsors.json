@@ -2,7 +2,7 @@
   "sponsors": [
     {
       "name": "De Bruyn",
-      "name2": "centrale verwarming",
+      "name2": "Centrale Verwarming",
       "address": "www.debruyn-nv.be"
     },
     {
@@ -23,7 +23,7 @@
     },
     {
       "name": "Van Rompaey",
-      "name2": "hout & doe-het-zelf",
+      "name2": "Hout & Doe-Het-Zelf",
       "address": "Liersesteenweg 130",
       "address2": "Begijnendijk"
     },
@@ -73,19 +73,19 @@
     },
     {
       "name": "Bakkerij Nijs",
-      "name2": "brood - banket",
+      "name2": "Brood - Banket",
       "address": "Prof. Scharpélaan 12",
       "address2": "Betekom"
     },
     {
       "name": "Delvora",
-      "name2": "pralines - chocolade",
+      "name2": "Pralines - Chocolade",
       "address": "Prof. Scharpélaan 25",
       "address2": "Betekom"
     },
     {
       "name": "Gebr. Van Reeth",
-      "name2": "dak - sanitair",
+      "name2": "Dak - Sanitair",
       "address": "Prof. Scharpélaan 108",
       "address2": "Betekom"
     },
@@ -98,7 +98,7 @@
     },
     {
       "name": "Het Tolhuis",
-      "name2": "dranken - wijnen",
+      "name2": "Dranken - Wijnen",
       "address": "Tremelosesteenweg 160",
       "address2": "Baal"
     },
@@ -144,7 +144,7 @@
     {
       "twoRows": true,
       "name": "Pizza Da Roberto",
-      "name2": "woe en vrij 17u-21u",
+      "name2": "woe en vrij\n17u - 21u",
       "address": "Tremelosesteenweg 30",
       "address2": "Betekom"
     },
@@ -262,18 +262,18 @@
     },
     {
       "name": "Euro-Decor",
-      "name2": "gordijnen-zonnewering",
+      "name2": "Gordijnen - Zonnewering",
       "address": "Aarschotsesteenweg 140",
       "address2": "Betekom"
     },
     {
-      "name": "MHT Michiels-Haegemans",
-      "name2": "Bouwmaterialen",
+      "name": "Michiels-Haegemans",
+      "name2": "Tegels & Bouwmaterialen",
       "address": "Beekstraat 9",
       "address2": "Betekom"
     },
     {
-      "name": "broodjeszaak",
+      "name": "Broodjeszaak",
       "name2": "’t Clubhuis",
       "address": "Prof. Scharpélaan 13",
       "address2": "Betekom"
@@ -368,7 +368,16 @@
       "address2": "Aarschot"
     },
     {
-      "name": "Het Stoffenhoekje",
+      "twoRows": true,
+      "image": "sweetlekker.png",
+      "imageWidth": 84,
+      "name": "\nvoor uw",
+      "name2": "buffet en BBQ",
+      "address": "\nRozenlaan 16",
+      "address2": "Baal"
+    },
+    {
+      "name": "HET Stoffenhoekje",
       "address": "C. Vissenaekensplein 1",
       "address2": "Betekom"
     },
@@ -389,15 +398,7 @@
       "address2": "Aarschot"
     },
     {
-    },
-    {
-      "name": "",
-      "name2": "",
-      "address": "",
-      "address2": ""
-    },
-    {
-      "name": "Wasserij droogkuis",
+      "name": "Wasserij Droogkuis",
       "name2": "De Parel",
       "address": "Liersesteenweg 43",
       "address2": "Aarschot"
@@ -436,12 +437,6 @@
       "name2": "Kirsten",
       "address": "O.L.Vrouwstraat 48",
       "address2": "Betekom"
-    },
-    {
-      "name": "",
-      "name2": "",
-      "address": "",
-      "address2": ""
     }
   ]
 }
