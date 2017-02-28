@@ -93,7 +93,7 @@
       "twoRows": true,
       "image": "belfius.png",
       "imageWidth": 84,
-      "address": "C. Vissenaekensplein 6",
+      "address": "\nC. Vissenaekensplein 6",
       "address2": "Betekom"
     },
     {
@@ -202,9 +202,9 @@
       "address2": "Betekom"
     },
     {
-      "name": "’t Pistoleeke",
-      "address": "Dorpstraat 66",
-      "address2": "Begijnendijk"
+      "name": "Reves Vastgoed",
+      "address": "Prof.Scharpélaan 5",
+      "address2": "Betekom"
     },
     {
       "name": "Carl’s Carwash",
@@ -345,8 +345,14 @@
     },
     {
       "name": "Sweco Belgium",
-      "address": "Stationsstraat 52",
-      "address2": "2800 Mechelen"
+      "address": "Stationsstraat 51",
+      "address2": "Mechelen"
+    },
+    {
+      "name": "GTC Computers",
+      "name2": "alle hard- en software",
+      "address": "Grote Baan 99",
+      "address2": "Betekom"
     },
     {
       "twoRows": true,
@@ -354,12 +360,6 @@
       "imageHeight": 50,
       "address": "Statieplein 14",
       "address2": "Aarschot"
-    },
-    {
-      "name": "GTC Computers",
-      "name2": "alle hard- en software",
-      "address": "Grote Baan 99",
-      "address2": "Betekom"
     },
     {
       "name": "Restaurant",
@@ -382,14 +382,23 @@
       "address2": "Betekom"
     },
     {
-      "name": "Poker Friet",
+      "name": "friethuisje",
+      "name2": "Poker Friet",
       "address": "Pastoor Pitetlaan 30",
       "address2": "Betekom"
     },
     {
-      "name": "Reves Vastgoed",
-      "address": "Prof.Scharpélaan 5",
-      "address2": "Betekom"
+      "twoRows": true,
+      "image": "den-houten-lepel.png",
+      "imageWidth": 40,
+      "name": "\nDen Houten Lepel",
+      "name2": "dagverse, gezonde maaltijden",
+      "address": "denhoutenlepel.be"
+    },
+    {
+      "name": "’t Pistoleeke",
+      "address": "Dorpstraat 66",
+      "address2": "Begijnendijk"
     },
     {
       "name": "Droogkuis",

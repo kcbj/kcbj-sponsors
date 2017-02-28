@@ -49,8 +49,10 @@ import be.kcbj.placemat.model.Sponsors;
 
 public class Placemat {
 
+    private static final InsetCell CELL_EVENT = new InsetCell();
     private static final String DEST = "build/placemat.pdf";
-    private static final int NUM_COLUMNS = 8;
+
+    private static final int PADDING_DOC = 2;
 
     public static void main(String[] args) throws IOException, DocumentException {
         File file = new File(DEST);
@@ -62,24 +64,31 @@ public class Placemat {
     }
 
     private void createPdf(String dest, List<Sponsor> sponsors) throws IOException, DocumentException {
+        Layout layout = new Layout(sponsors);
+        System.out.println("Layout = " + layout);
+
         Document document = new Document();
         PdfWriter.getInstance(document, new FileOutputStream(dest));
         document.setPageSize(PageSize.A4.rotate());
+        document.setMargins(PADDING_DOC, PADDING_DOC, PADDING_DOC, PADDING_DOC);
         document.open();
 
-        PdfPTable table = new PdfPTable(NUM_COLUMNS);
+        PdfPTable table = new PdfPTable(layout.getColumnCount());
         table.setWidthPercentage(100);
         table.setSpacingBefore(0f);
         table.setSpacingAfter(0f);
         for (int i = 0; i < sponsors.size(); i++) {
-            table.addCell(generateCell(sponsors.get(i)));
+            table.addCell(generateCell(sponsors.get(i), layout.getCellHeight()));
+        }
+        for (int i = 0; i < layout.getEmptyCellCount(); i++) {
+            table.addCell(generateCell(new Sponsor(), layout.getCellHeight()));
         }
         document.add(table);
 
         document.close();
     }
 
-    private PdfPCell generateCell(Sponsor sponsor) throws IOException, BadElementException {
+    private PdfPCell generateCell(Sponsor sponsor, float cellHeight) throws IOException, BadElementException {
         int numLines = 0;
         Paragraph p = new Paragraph();
 
@@ -121,7 +130,7 @@ public class Placemat {
         PdfPCell cell = new PdfPCell();
         cell.setHorizontalAlignment(Element.ALIGN_CENTER);
         cell.setVerticalAlignment(Element.ALIGN_MIDDLE);
-        cell.setFixedHeight(47f);
+        cell.setFixedHeight(cellHeight);
         if (sponsor.twoColumns) {
             cell.setColspan(2);
         }
@@ -132,7 +141,7 @@ public class Placemat {
             }
         }
         cell.setBorder(PdfPCell.NO_BORDER);
-        cell.setCellEvent(new InsetCell());
+        cell.setCellEvent(CELL_EVENT);
         cell.setPaddingBottom(4);
         cell.addElement(p);
 
@@ -144,9 +153,9 @@ public class Placemat {
         return new Chunk(text, new Font(Font.FontFamily.HELVETICA, size, style));
     }
 
-    private class InsetCell implements PdfPCellEvent {
+    private static class InsetCell implements PdfPCellEvent {
 
-        static final float INSET = 2;
+        static final float INSET = 1.5f;
 
         @Override
         public void cellLayout(PdfPCell cell, Rectangle position, PdfContentByte[] canvases) {
@@ -155,9 +164,66 @@ public class Placemat {
             float y1 = position.getTop() - INSET;
             float y2 = position.getBottom() + INSET;
             PdfContentByte canvas = canvases[PdfPTable.LINECANVAS];
-            canvas.rectangle(x1, y1, x2 - x1, y2 - y1);
+            canvas.roundRectangle(x1, y1, x2 - x1, y2 - y1, INSET);
             canvas.setLineWidth(0.5);
             canvas.stroke();
+        }
+    }
+
+    private class Layout {
+        private int mFilledCellCount = 0;
+        private final int mColumnCount;
+        private int mRowCount;
+        private int mEmptyCellCount;
+        private int mTwoRowCount;
+        private int mTwoColumnCount;
+        private float mCellHeight;
+
+        Layout(List<Sponsor> sponsors) {
+            countCells(sponsors);
+            mColumnCount = 8;
+            mRowCount = mFilledCellCount / getColumnCount() + 1;
+            mEmptyCellCount = mColumnCount - mFilledCellCount % mColumnCount;
+            mCellHeight = (595f - 2 * PADDING_DOC) / mRowCount;
+        }
+
+        private void countCells(List<Sponsor> sponsors) {
+            for (int i = 0; i < sponsors.size(); i++) {
+                Sponsor sponsor = sponsors.get(i);
+                mFilledCellCount++;
+                if (sponsor.twoColumns) {
+                    mTwoColumnCount++;
+                    mFilledCellCount++;
+                } else if (sponsor.twoRows) {
+                    mTwoRowCount++;
+                    mFilledCellCount++;
+                }
+            }
+        }
+
+        int getColumnCount() {
+            return mColumnCount;
+        }
+
+        int getEmptyCellCount() {
+            return mEmptyCellCount;
+        }
+
+        float getCellHeight() {
+            return mCellHeight;
+        }
+
+        @Override
+        public String toString() {
+            return "Layout{" +
+                    "mFilledCellCount=" + mFilledCellCount +
+                    ", mColumnCount=" + mColumnCount +
+                    ", mRowCount=" + mRowCount +
+                    ", mEmptyCellCount=" + mEmptyCellCount +
+                    ", mTwoRowCount=" + mTwoRowCount +
+                    ", mTwoColumnCount=" + mTwoColumnCount +
+                    ", mCellHeight=" + mCellHeight +
+                    '}';
         }
     }
 }
