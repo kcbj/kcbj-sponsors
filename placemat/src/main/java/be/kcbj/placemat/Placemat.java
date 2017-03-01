@@ -182,8 +182,8 @@ public class Placemat {
         Layout(List<Sponsor> sponsors) {
             countCells(sponsors);
             mColumnCount = 8;
-            mRowCount = mFilledCellCount / getColumnCount() + 1;
-            mEmptyCellCount = mColumnCount - mFilledCellCount % mColumnCount;
+            mRowCount = (int) Math.ceil(mFilledCellCount / getColumnCount());
+            mEmptyCellCount = (mColumnCount - mFilledCellCount % mColumnCount) % mColumnCount;
             mCellHeight = (595f - 2 * PADDING_DOC) / mRowCount;
         }
 
@@ -215,7 +215,7 @@ public class Placemat {
 
         @Override
         public String toString() {
-            return "Layout{" +
+            return "Measure{" +
                     "mFilledCellCount=" + mFilledCellCount +
                     ", mColumnCount=" + mColumnCount +
                     ", mRowCount=" + mRowCount +
