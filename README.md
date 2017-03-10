@@ -6,11 +6,11 @@
 ## How to use?
 
  1. Update sponsors in [`placemat/sponsors/sponsors.json`](https://github.com/litrik/kcbj-placemat/blob/master/placemat/sponsors/sponsors.json).
- 1. Execute
-
+ 2. Execute
+```
     ./gradlew run
-
- 1. PDF file is generated in `placemat/build/placemat.pdf`
+```
+ 3. PDF file is generated in `placemat/build/placemat.pdf`
 
 ## License
 
