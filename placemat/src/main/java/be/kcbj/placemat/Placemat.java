@@ -1,27 +1,25 @@
 /*
     Copyright 2017 Litrik De Roy
 
-    This file is part of KCBJ Placemat.
+    This file is part of KCBJ Sponsors.
 
-    KCBJ Placemat is free software: you can redistribute it and/or modify
+    KCBJ Sponsors is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    KCBJ Placemat is distributed in the hope that it will be useful,
+    KCBJ Sponsors is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with KCBJ Placemat.  If not, see <http://www.gnu.org/licenses/>.
+    along with KCBJ Sponsors.  If not, see <http://www.gnu.org/licenses/>.
 
  */
 
 package be.kcbj.placemat;
 
-import com.google.gson.Gson;
-import com.google.gson.stream.JsonReader;
 import com.itextpdf.text.BadElementException;
 import com.itextpdf.text.Chunk;
 import com.itextpdf.text.Document;
@@ -40,17 +38,15 @@ import com.itextpdf.text.pdf.PdfWriter;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 
-import be.kcbj.placemat.model.Sponsor;
-import be.kcbj.placemat.model.Sponsors;
+import be.kcbj.core.SponsorManager;
+import be.kcbj.core.model.Sponsor;
 
 public class Placemat {
 
     private static final InsetCell CELL_EVENT = new InsetCell();
-    private static final String BASEDIR = "../";
     private static final String DEST = "build/placemat.pdf";
 
     private static final int PADDING_DOC = 2;
@@ -59,17 +55,16 @@ public class Placemat {
         File file = new File(DEST);
         file.getParentFile().mkdirs();
 
-        JsonReader reader = new JsonReader(new FileReader(BASEDIR + "sponsors/sponsors.json"));
-        Sponsors sponsors = new Gson().fromJson(reader, Sponsors.class);
-        new Placemat().createPdf(DEST, sponsors.sponsors);
+        new Placemat().createPdf(file, SponsorManager.loadSponsors());
     }
 
-    private void createPdf(String dest, List<Sponsor> sponsors) throws IOException, DocumentException {
+    private void createPdf(File file, List<Sponsor> sponsors) throws IOException, DocumentException {
+        System.out.println("Generating PDF file " + file.getAbsolutePath());
         Layout layout = new Layout(sponsors);
         System.out.println("Layout = " + layout);
 
         Document document = new Document();
-        PdfWriter.getInstance(document, new FileOutputStream(dest));
+        PdfWriter.getInstance(document, new FileOutputStream(file));
         document.setPageSize(PageSize.A4.rotate());
         document.setMargins(PADDING_DOC, PADDING_DOC, PADDING_DOC, PADDING_DOC);
         document.open();
@@ -94,7 +89,7 @@ public class Placemat {
         Paragraph p = new Paragraph();
 
         if (sponsor.image != null) {
-            Image image = Image.getInstance(BASEDIR + "sponsors/images/" + sponsor.image);
+            Image image = Image.getInstance(SponsorManager.getImageUrl(sponsor.image));
             if (sponsor.imageWidth != 0) {
                 image.scaleToFit(sponsor.imageWidth, 1000);
             } else if (sponsor.imageHeight != 0) {

@@ -1,0 +1,25 @@
+repositories {
+    jcenter()
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.7
+
+mainClassName = "be.kcbj.presentation.Presentation"
+
+dependencies {
+
+    compile project(':core')
+
+    compile 'com.j2html:j2html:0.88'
+
+}
+
+task copyReveal(type: Copy) {
+    from 'reveal.js'
+    into 'build/presentation/reveal.js'
+}
+
+compileJava.dependsOn copyReveal

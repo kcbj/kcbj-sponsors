@@ -11,10 +11,9 @@ mainClassName = "be.kcbj.placemat.Placemat"
 
 dependencies {
 
+    compile project(':core')
+
     // https://github.com/itext/itextpdf
     compile 'com.itextpdf:itextpdf:5.5.10'
-
-    // https://github.com/google/gson
-    compile 'org.immutables:gson:2.4.3'
 
 }
