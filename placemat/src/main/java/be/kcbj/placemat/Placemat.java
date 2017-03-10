@@ -50,6 +50,7 @@ import be.kcbj.placemat.model.Sponsors;
 public class Placemat {
 
     private static final InsetCell CELL_EVENT = new InsetCell();
+    private static final String BASEDIR = "../";
     private static final String DEST = "build/placemat.pdf";
 
     private static final int PADDING_DOC = 2;
@@ -58,7 +59,7 @@ public class Placemat {
         File file = new File(DEST);
         file.getParentFile().mkdirs();
 
-        JsonReader reader = new JsonReader(new FileReader("sponsors/sponsors.json"));
+        JsonReader reader = new JsonReader(new FileReader(BASEDIR + "sponsors/sponsors.json"));
         Sponsors sponsors = new Gson().fromJson(reader, Sponsors.class);
         new Placemat().createPdf(DEST, sponsors.sponsors);
     }
@@ -93,7 +94,7 @@ public class Placemat {
         Paragraph p = new Paragraph();
 
         if (sponsor.image != null) {
-            Image image = Image.getInstance("sponsors/images/" + sponsor.image);
+            Image image = Image.getInstance(BASEDIR + "sponsors/images/" + sponsor.image);
             if (sponsor.imageWidth != 0) {
                 image.scaleToFit(sponsor.imageWidth, 1000);
             } else if (sponsor.imageHeight != 0) {
