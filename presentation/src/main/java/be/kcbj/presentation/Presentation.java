@@ -35,7 +35,7 @@ import j2html.tags.ContainerTag;
 
 public class Presentation {
 
-    private static final int DELAY_IN_MILLIS = 5000;
+    private static final int DELAY_IN_MILLIS = 0;
 
     private static final String DEST = "build/presentation/index.html";
 
@@ -64,13 +64,13 @@ public class Presentation {
                 .withData("background", "#069")
                 .withData("autoslide", sponsor.isMajor() ? String.valueOf(DELAY_IN_MILLIS * 2) : String.valueOf(DELAY_IN_MILLIS));
         if (sponsor.image != null) {
-            tag.with(TagCreator.img().withSrc(sponsor.image));
+            tag.with(TagCreator.img().withSrc("images/large/" + sponsor.image));
         }
         if (sponsor.name != null) {
             tag.with(TagCreator.h3().withText(sponsor.name));
         }
         if (sponsor.name2 != null) {
-            tag.with(TagCreator.h4().withText(sponsor.name2));
+            tag.with(TagCreator.h3().withText(sponsor.name2));
         }
         if (sponsor.address != null) {
             tag.with(TagCreator.p().withText(sponsor.address));
