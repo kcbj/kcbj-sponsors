@@ -99,24 +99,55 @@ public class Placemat {
             p.add(imageChunk);
         }
 
-        if (sponsor.name != null) {
-            p.add(generateFittedChunk(sponsor.name, Font.BOLD));
+        if (sponsor.twoColumns) {
+            StringBuilder sb = new StringBuilder();
+            if (sponsor.name != null) {
+                sb.append(sponsor.name);
+            }
+            if (sponsor.name2 != null) {
+                if (sb.length() > 0) {
+                    sb.append(" - ");
+                }
+                sb.append(sponsor.name2);
+            }
+            if (sponsor.address != null) {
+                if (sb.length() > 0) {
+                    sb.append(" - ");
+                }
+                sb.append(sponsor.address);
+            }
+            if (sponsor.address2 != null) {
+                if (sb.length() > 0) {
+                    sb.append(" - ");
+                }
+                sb.append(sponsor.address2);
+            }
+            p.add(Chunk.NEWLINE);
+            p.add(new Chunk(sb.toString(), new Font(Font.FontFamily.HELVETICA, 8, Font.NORMAL)));
             numLines++;
-        }
-        if (sponsor.name2 != null) {
-            p.add("\n");
-            p.add(generateFittedChunk(sponsor.name2, Font.BOLD));
-            numLines++;
-        }
-        if (sponsor.address != null) {
-            p.add(new Chunk("\n\n", new Font(Font.FontFamily.HELVETICA, 2, Font.NORMAL)));
-            p.add(new Chunk(sponsor.address, new Font(Font.FontFamily.HELVETICA, 7, Font.NORMAL)));
-            numLines++;
-        }
-        if (sponsor.address2 != null) {
-            p.add("\n");
-            p.add(new Chunk(sponsor.address2, new Font(Font.FontFamily.HELVETICA, 7, Font.NORMAL)));
-            numLines++;
+        } else {
+            if (sponsor.twoRows && sponsor.image != null) {
+                p.add(Chunk.NEWLINE);
+            }
+            if (sponsor.name != null) {
+                p.add(generateFittedChunk(sponsor.name, Font.BOLD));
+                numLines++;
+            }
+            if (sponsor.name2 != null) {
+                p.add(Chunk.NEWLINE);
+                p.add(generateFittedChunk(sponsor.name2, Font.BOLD));
+                numLines++;
+            }
+            if (sponsor.address != null) {
+                p.add(new Chunk("\n\n", new Font(Font.FontFamily.HELVETICA, 2, Font.NORMAL)));
+                p.add(new Chunk(sponsor.address, new Font(Font.FontFamily.HELVETICA, 7, Font.NORMAL)));
+                numLines++;
+            }
+            if (sponsor.address2 != null) {
+                p.add(Chunk.NEWLINE);
+                p.add(new Chunk(sponsor.address2, new Font(Font.FontFamily.HELVETICA, 7, Font.NORMAL)));
+                numLines++;
+            }
         }
         p.setPaddingTop(0);
         p.setSpacingBefore(0);

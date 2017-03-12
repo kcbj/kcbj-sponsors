@@ -4,7 +4,7 @@
       "twoRows": true,
       "image": "proxy.png",
       "imageWidth": 84,
-      "name": "\nBetekom",
+      "name": "Betekom",
       "address": "Prof. Scharpélaan 19",
       "address2": "Betekom"
     },
@@ -22,7 +22,8 @@
       "twoColumns": true,
       "imageHeight": 22,
       "image": "de-bruyn.png",
-      "address": "Centrale Verwarming - www.debruyn-nv.be"
+      "name": "Centrale Verwarming",
+      "address": "www.debruyn-nv.be"
     },
     {
       "name": "Beenhouwerij",
@@ -40,7 +41,7 @@
       "twoRows": true,
       "image": "kbc.png",
       "imageWidth": 56,
-      "name2": "Betekom - Begijnendijk",
+      "name": "Betekom - Begijnendijk",
       "address": "C. Vissenaekensplein 13",
       "address2": "Betekom"
     },
@@ -72,7 +73,7 @@
       "twoRows": true,
       "image": "bries.png",
       "imageWidth": 84,
-      "name": "\nKoeltechnieken",
+      "name": "Koeltechnieken",
       "address": "Spoorweg 22",
       "address2": "Begijnendijk"
     },
@@ -122,7 +123,7 @@
       "twoRows": true,
       "image": "belfius.png",
       "imageWidth": 84,
-      "address": "\nC. Vissenaekensplein 6",
+      "address": "C. Vissenaekensplein 6",
       "address2": "Betekom"
     },
     {
@@ -141,7 +142,8 @@
       "twoColumns": true,
       "image": "norio.png",
       "imageWidth": 110,
-      "address": "Better Android Apps - www.norio.be"
+      "name": "Better Android Apps",
+      "address": "www.norio.be"
     },
     {
       "name": "Crauwels Banden",
@@ -157,8 +159,8 @@
       "twoRows": true,
       "image": "mercedes-benz.png",
       "imageWidth": 80,
-      "name": "\nGarage Smedts",
-      "name2": "Aarschot"
+      "name": "Garage Smedts",
+      "address": "Aarschot"
     },
     {
       "name": "BSJ Sport",
@@ -169,7 +171,7 @@
       "twoRows": true,
       "image": "pizza-roberto.png",
       "imageWidth": 84,
-      "name2": "woe en vrij\n17u - 21u",
+      "name": "woe en vrij\n17u - 21u",
       "address": "Tremelosesteenweg 30",
       "address2": "Betekom\n0493 69 76 87"
     },
@@ -187,7 +189,7 @@
     {
       "twoRows": true,
       "name": "Cafetaria",
-      "name2": "De Tumkens\n",
+      "name2": "De Tumkens",
       "address": "Pastoor Pitetlaan",
       "address2": "Betekom"
     },
@@ -255,8 +257,7 @@
       "twoRows": true,
       "image": "crelan.png",
       "imageWidth": 80,
-      "name": "\n\nCrelan Aarschot",
-      "name2": "",
+      "name": "Crelan Aarschot",
       "address": "Schaluin 62",
       "address2": "Aarschot"
     },
@@ -282,7 +283,7 @@
       "twoRows": true,
       "image": "den-houten-lepel.png",
       "imageWidth": 40,
-      "name": "\nDen Houten Lepel",
+      "name": "Den Houten Lepel",
       "name2": "dagverse, gezonde maaltijden",
       "address": "denhoutenlepel.be",
       "address2": "0476 24 02 35"
@@ -331,7 +332,7 @@
       "twoColumns": true,
       "image": "act-unity.png",
       "imageWidth": 110,
-      "name": "\nwww.act-unity.com"
+      "address": "www.act-unity.com"
     },
     {
       "name": "Kapsalon",
@@ -354,7 +355,7 @@
       "twoRows": true,
       "image": "automotive.png",
       "imageWidth": 84,
-      "name": "\ngroepautomotive.be"
+      "address": "groepautomotive.be"
     },
     {
       "name": "Bike & Run Lab",
@@ -363,8 +364,8 @@
     },
     {
       "twoRows": true,
-      "imageWidth": 84,
-      "image": "kbc-mertens.png"
+      "image": "kbc-mertens.png",
+      "imageWidth": 84
     },
     {
       "name": "Garage Van Der Elst",
@@ -394,7 +395,7 @@
       "twoRows": true,
       "image": "verabo.png",
       "imageWidth": 84,
-      "name": "\nverabo.be"
+      "address": "verabo.be"
     },
     {
       "name": "Restaurant",
