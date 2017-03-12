@@ -1,7 +1,9 @@
 
 # KCBJ Sponsors
 
-*KCBJ Sponsors* is a small program to generate an A4 PDF with the sponsors of korfballclub [KCBJ](http://www.kcbj.be/)
+*KCBJ Sponsors* is a small program of korfballclub [KCBJ](http://www.kcbj.be/) to:
+ 1. generate an A4 PDF with the sponsors
+ 1. generate an HTML presentation with the sponsors
 
 ## How to use?
 
@@ -11,6 +13,7 @@
     ./gradlew run
 ```
  3. PDF file is generated in `placemat/build/placemat.pdf`
+ 3. HTML presentation is generated in `presentation/build/presentation`
 
 ## License
 
