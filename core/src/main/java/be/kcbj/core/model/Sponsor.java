@@ -20,6 +20,8 @@
 
 package be.kcbj.core.model;
 
+import java.util.Locale;
+
 public class Sponsor {
 
     public String name;
@@ -35,6 +37,10 @@ public class Sponsor {
 
     public boolean isMajor() {
         return twoColumns || twoRows;
+    }
+
+    public boolean isTodo() {
+        return name != null && name.toLowerCase(Locale.getDefault()).contains("todo");
     }
 
 }

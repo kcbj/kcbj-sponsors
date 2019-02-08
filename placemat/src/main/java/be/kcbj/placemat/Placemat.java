@@ -21,6 +21,7 @@
 package be.kcbj.placemat;
 
 import com.itextpdf.text.BadElementException;
+import com.itextpdf.text.BaseColor;
 import com.itextpdf.text.Chunk;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
@@ -171,6 +172,9 @@ public class Placemat {
         cell.setCellEvent(CELL_EVENT);
         cell.setPaddingBottom(4);
         cell.addElement(p);
+        if (sponsor.isTodo()) {
+            cell.setBackgroundColor(BaseColor.ORANGE);
+        }
 
         return cell;
     }
@@ -198,58 +202,58 @@ public class Placemat {
     }
 
     private class Layout {
-        private int mFilledCellCount = 0;
-        private final int mColumnCount;
-        private int mRowCount;
-        private int mEmptyCellCount;
-        private int mTwoRowCount;
-        private int mTwoColumnCount;
-        private float mCellHeight;
+        private int filledCellCount = 0;
+        private final int columnCount;
+        private int rowCount;
+        private int emptyCellCount;
+        private int twoRowCount;
+        private int twoColumnCount;
+        private float cellHeight;
 
         Layout(List<Sponsor> sponsors) {
             countCells(sponsors);
-            mColumnCount = 8;
-            mRowCount = (int) Math.ceil(mFilledCellCount / getColumnCount());
-            mEmptyCellCount = (mColumnCount - mFilledCellCount % mColumnCount) % mColumnCount;
-            mCellHeight = (595f - 2 * PADDING_DOC) / mRowCount;
+            columnCount = 8;
+            rowCount = (int) Math.ceil(filledCellCount / getColumnCount());
+            emptyCellCount = (columnCount - filledCellCount % columnCount) % columnCount;
+            cellHeight = (595f - 2 * PADDING_DOC) / rowCount;
         }
 
         private void countCells(List<Sponsor> sponsors) {
             for (int i = 0; i < sponsors.size(); i++) {
                 Sponsor sponsor = sponsors.get(i);
-                mFilledCellCount++;
+                filledCellCount++;
                 if (sponsor.twoColumns) {
-                    mTwoColumnCount++;
-                    mFilledCellCount++;
+                    twoColumnCount++;
+                    filledCellCount++;
                 } else if (sponsor.twoRows) {
-                    mTwoRowCount++;
-                    mFilledCellCount++;
+                    twoRowCount++;
+                    filledCellCount++;
                 }
             }
         }
 
         int getColumnCount() {
-            return mColumnCount;
+            return columnCount;
         }
 
         int getEmptyCellCount() {
-            return mEmptyCellCount;
+            return emptyCellCount;
         }
 
         float getCellHeight() {
-            return mCellHeight;
+            return cellHeight;
         }
 
         @Override
         public String toString() {
             return "Measure{" +
-                    "mFilledCellCount=" + mFilledCellCount +
-                    ", mColumnCount=" + mColumnCount +
-                    ", mRowCount=" + mRowCount +
-                    ", mEmptyCellCount=" + mEmptyCellCount +
-                    ", mTwoRowCount=" + mTwoRowCount +
-                    ", mTwoColumnCount=" + mTwoColumnCount +
-                    ", mCellHeight=" + mCellHeight +
+                    "filledCellCount=" + filledCellCount +
+                    ", columnCount=" + columnCount +
+                    ", rowCount=" + rowCount +
+                    ", emptyCellCount=" + emptyCellCount +
+                    ", twoRowCount=" + twoRowCount +
+                    ", twoColumnCount=" + twoColumnCount +
+                    ", cellHeight=" + cellHeight +
                     '}';
         }
     }

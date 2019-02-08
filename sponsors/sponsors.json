@@ -9,14 +9,16 @@
       "address2": "Betekom"
     },
     {
-      "name": "Bodygym",
-      "address": "Oude Mechelsebaan 84",
-      "address2": "Aarschot"
+      "name": "VBM",
+      "name2": "verzekeringen",
+      "address": "Baalsebaan 181",
+      "address2": "Baal"
     },
     {
-      "name": "Electro Diggi",
-      "address": "Baalsesteenweg 48",
-      "address2": "Begijnendijk"
+      "name": "Likeuren",
+      "name2": "De Gent",
+      "address": "C. Vissenaekensplein 12",
+      "address2": "Betekom"
     },
     {
       "twoColumns": true,
@@ -64,10 +66,10 @@
       "address2": "Begijnendijk"
     },
     {
-      "name": "Likeuren",
-      "name2": "De Gent",
-      "address": "C. Vissenaekensplein 12",
-      "address2": "Betekom"
+      "name": "BNP Paribas Fortis",
+      "name2": "Begijnendijk - Betekom",
+      "address": "Betekomsesteenweg 6",
+      "address2": "3130 Begijnendijk"
     },
     {
       "twoRows": true,
@@ -102,10 +104,10 @@
       "address2": "Betekom"
     },
     {
-      "name": "Het Tolhuis",
-      "name2": "Dranken - Wijnen",
+      "name": "Enjoy Drinks",
+      "name2": "Het Tolhuis",
       "address": "Tremelosesteenweg 160",
-      "address2": "Baal"
+      "address2": "Betekom"
     },
     {
       "name": "Taverne",
@@ -182,15 +184,18 @@
       "address2": "Betekom"
     },
     {
-      "name": "Frituur Rond Punt",
-      "address": "Professor Scharpélaan",
-      "address2": "Betekom"
-    },
-    {
       "twoRows": true,
       "name": "Cafetaria",
       "name2": "De Tumkens",
       "address": "Pastoor Pitetlaan",
+      "address2": "Betekom"
+    },
+    {
+      "twoRows": true,
+      "image": "reves.png",
+      "imageWidth": 46,
+      "name": "Vastgoed",
+      "address": "Prof. Scharpélaan 5",
       "address2": "Betekom"
     },
     {
@@ -218,19 +223,14 @@
       "address2": "Betekom"
     },
     {
-      "name": "Reves Vastgoed",
-      "address": "Prof. Scharpélaan 5",
-      "address2": "Betekom"
-    },
-    {
       "name": "Carl’s Carwash",
       "address": "Ter Heidelaan 45",
       "address2": "Aarschot"
     },
     {
-      "name": "’t Wit Toreke",
-      "address": "Ter Heidelaan 97",
-      "address2": "Aarschot"
+      "name": "Vleeswaren",
+      "name2": "Gerrit en Peggy",
+      "address": "016 532436"
     },
     {
       "twoRows": true,
@@ -242,23 +242,15 @@
       "address2": "Baal"
     },
     {
-      "name": "Feestzaal",
-      "name2": "Lindenhof",
-      "address": "Booischotstraat 1",
-      "address2": "Baal"
+      "name": "friethuisje",
+      "name2": "Poker Friet",
+      "address": "Pastoor Pitetlaan 30",
+      "address2": "Betekom"
     },
     {
-      "name": "AVEVE Tuincentrum",
-      "name2": "Thielemans",
-      "address": "Monnikstraat 26",
-      "address2": "Baal"
-    },
-    {
-      "twoRows": true,
-      "image": "crelan.png",
-      "imageWidth": 80,
-      "name": "Crelan Aarschot",
-      "address": "Schaluin 62",
+      "name": "Kapper",
+      "name2": "Christophe Henri",
+      "address": "Leuvensesteenweg 204",
       "address2": "Aarschot"
     },
     {
@@ -266,6 +258,14 @@
       "image": "immohome.png",
       "imageHeight": 50,
       "address": "Statieplein 14",
+      "address2": "Aarschot"
+    },
+    {
+      "twoRows": true,
+      "image": "crelan.png",
+      "imageWidth": 80,
+      "name": "Crelan Aarschot",
+      "address": "Schaluin 62",
       "address2": "Aarschot"
     },
     {
@@ -306,10 +306,8 @@
       "address2": "Betekom"
     },
     {
-      "name": "Broodjeszaak",
-      "name2": "’t Clubhuis",
-      "address": "Prof. Scharpélaan 13",
-      "address2": "Betekom"
+      "name": "Uw reclame hier?",
+      "name2": "info@kcbj.be"
     },
     {
       "name": "Lustrerie",
@@ -364,7 +362,9 @@
     },
     {
       "twoRows": true,
-      "image": "kbc-mertens.png",
+      "image": "twittoreke.png",
+      "address": "Ter Heidelaan 97",
+      "address2": "Aarschot",
       "imageWidth": 84
     },
     {
@@ -404,15 +404,18 @@
       "address2": "Aarschot"
     },
     {
-      "name": "HET Stoffenhoekje",
-      "address": "C. Vissenaekensplein 1",
-      "address2": "Betekom"
+      "twoRows": true,
+      "image": "mijnboekhouder.png",
+      "imageWidth": 84
     },
     {
-      "name": "friethuisje",
-      "name2": "Poker Friet",
-      "address": "Pastoor Pitetlaan 30",
-      "address2": "Betekom"
+      "twoRows": true,
+      "image": "renault.png",
+      "imageWidth": 84,
+      "name": "Garage",
+      "name2": "Thierry De Roover ",
+      "address": "Felix Aertgeertsstraat 35",
+      "address2": "Baal"
     },
     {
       "name": "’t Pistoleeke",
@@ -436,18 +439,6 @@
       "name2": "Grasmaaiers - Tuinmachines",
       "address": "Betekomsesteenweg 99",
       "address2": "Aarschot"
-    },
-    {
-      "name": "Kapper",
-      "name2": "Christophe Henri",
-      "address": "Leuvensesteenweg 204",
-      "address2": "Aarschot"
-    },
-    {
-      "name": "BNP Paribas Fortis",
-      "name2": "Begijnendijk - Betekom",
-      "address": "Betekomsesteenweg 6",
-      "address2": "3130 Begijnendijk"
     },
     {
       "name": "Wasserij Droogkuis",
