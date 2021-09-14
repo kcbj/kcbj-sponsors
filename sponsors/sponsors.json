@@ -9,10 +9,10 @@
       "address2": "Betekom"
     },
     {
-      "name": "VBM",
-      "name2": "verzekeringen",
-      "address": "Baalsebaan 181",
-      "address2": "Baal"
+      "name": "Taverne",
+      "name2": "De Pelgrim",
+      "address": "Werchtersesteenweg 44",
+      "address2": "Betekom"
     },
     {
       "name": "Likeuren",
@@ -86,10 +86,8 @@
       "address2": "Begijnendijk"
     },
     {
-      "name": "Bakkerij Nijs",
-      "name2": "Brood - Banket",
-      "address": "Prof. Scharpélaan 12",
-      "address2": "Betekom"
+      "name": "Uw reclame hier?",
+      "name2": "sponsoring@kcbj.be"
     },
     {
       "name": "Delvora",
@@ -110,10 +108,8 @@
       "address2": "Betekom"
     },
     {
-      "name": "Taverne",
-      "name2": "De Pelgrim",
-      "address": "Werchtersesteenweg 44",
-      "address2": "Betekom"
+      "name": "Uw reclame hier?",
+      "name2": "sponsoring@kcbj.be"
     },
     {
       "name": "Tweedehandswinkel",
@@ -125,8 +121,8 @@
       "twoRows": true,
       "image": "belfius.png",
       "imageWidth": 84,
-      "address": "C. Vissenaekensplein 6",
-      "address2": "Betekom"
+      "address": "Betekomsesteenweg 16",
+      "address2": "Begijnendijk"
     },
     {
       "name": "Schrijnwerkerij",
@@ -173,30 +169,21 @@
       "twoRows": true,
       "image": "pizza-roberto.png",
       "imageWidth": 84,
-      "name": "woe en vrij\n17u - 21u",
+      "name": "woe en vrij\n16u30 - 21u",
       "address": "Tremelosesteenweg 30",
       "address2": "Betekom\n0493 69 76 87"
     },
     {
-      "name": "Ver Elst",
-      "name2": "Bloemenspeciaalzaak",
-      "address": "Prof. Scharpélaan 3",
-      "address2": "Betekom"
+      "twoColumns": true,
+      "imageWidth": 110,
+      "image": "vbm.png"
     },
     {
       "twoRows": true,
-      "name": "Cafetaria",
-      "name2": "De Tumkens",
-      "address": "Pastoor Pitetlaan",
-      "address2": "Betekom"
-    },
-    {
-      "twoRows": true,
-      "image": "reves.png",
-      "imageWidth": 46,
-      "name": "Vastgoed",
-      "address": "Prof. Scharpélaan 5",
-      "address2": "Betekom"
+      "image": "immohome.png",
+      "imageHeight": 50,
+      "address": "Statieplein 14",
+      "address2": "Aarschot"
     },
     {
       "name": "Ruitenwasser",
@@ -220,6 +207,12 @@
       "name": "Gebroeders Nijs",
       "name2": "Loon- en grondwerken",
       "address": "Tremelosesteenweg 55",
+      "address2": "Betekom"
+    },
+    {
+      "name": "Ver Elst",
+      "name2": "Bloemenspeciaalzaak",
+      "address": "Prof. Scharpélaan 3",
       "address2": "Betekom"
     },
     {
@@ -255,10 +248,11 @@
     },
     {
       "twoRows": true,
-      "image": "immohome.png",
-      "imageHeight": 50,
-      "address": "Statieplein 14",
-      "address2": "Aarschot"
+      "image": "reves.png",
+      "imageWidth": 46,
+      "name": "Vastgoed",
+      "address": "Prof. Scharpélaan 44",
+      "address2": "Betekom"
     },
     {
       "twoRows": true,
@@ -307,13 +301,11 @@
     },
     {
       "name": "Uw reclame hier?",
-      "name2": "info@kcbj.be"
+      "name2": "sponsoring@kcbj.be"
     },
     {
-      "name": "Lustrerie",
-      "name2": "Danckers-Verhaegen",
-      "address": "Grote Baan 109",
-      "address2": "Betekom"
+      "name": "Uw reclame hier?",
+      "name2": "sponsoring@kcbj.be"
     },
     {
       "name": "Auto-onderdelen",
@@ -368,10 +360,8 @@
       "imageWidth": 84
     },
     {
-      "name": "Garage Van Der Elst",
-      "name2": "Audi en VW verdeler",
-      "address": "Ter Heidelaan 95",
-      "address2": "Aarschot"
+      "name": "Uw reclame hier?",
+      "name2": "sponsoring@kcbj.be"
     },
     {
       "name": "Sweco Belgium",
@@ -393,9 +383,10 @@
     },
     {
       "twoRows": true,
-      "image": "verabo.png",
+      "image": "myteam.png",
       "imageWidth": 84,
-      "address": "verabo.be"
+      "address": "Martelarenstraat 36-40",
+      "address2": "Aarschot"
     },
     {
       "name": "Restaurant",
@@ -405,8 +396,10 @@
     },
     {
       "twoRows": true,
-      "image": "mijnboekhouder.png",
-      "imageWidth": 84
+      "name": "Cafetaria",
+      "name2": "De Tumkens",
+      "address": "Pastoor Pitetlaan",
+      "address2": "Betekom"
     },
     {
       "twoRows": true,
