@@ -11,9 +11,9 @@ mainClassName = "be.kcbj.placemat.Placemat"
 
 dependencies {
 
-    compile project(':core')
+    implementation project(':core')
 
     // https://github.com/itext/itextpdf
-    compile 'com.itextpdf:itextpdf:5.5.10'
+    implementation 'com.itextpdf:itextpdf:5.5.10'
 
 }

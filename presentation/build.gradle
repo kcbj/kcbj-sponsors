@@ -11,9 +11,9 @@ mainClassName = "be.kcbj.presentation.Presentation"
 
 dependencies {
 
-    compile project(':core')
+    implementation project(':core')
 
-    compile 'com.j2html:j2html:0.88'
+    implementation 'com.j2html:j2html:0.88'
 
 }
 
