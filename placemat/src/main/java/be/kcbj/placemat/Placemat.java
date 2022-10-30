@@ -50,7 +50,7 @@ public class Placemat {
     private static final InsetCell CELL_EVENT = new InsetCell();
     private static final String DEST = "build/placemat.pdf";
 
-    private static final int PADDING_DOC = 2;
+    private static final int PADDING_DOC = 4;
 
     public static void main(String[] args) throws IOException, DocumentException {
         File file = new File(DEST);
@@ -67,7 +67,7 @@ public class Placemat {
         Document document = new Document();
         PdfWriter.getInstance(document, new FileOutputStream(file));
         document.setPageSize(PageSize.A4.rotate());
-        document.setMargins(PADDING_DOC, PADDING_DOC, PADDING_DOC, PADDING_DOC);
+        document.setMargins(PADDING_DOC,  PADDING_DOC, PADDING_DOC, PADDING_DOC);
         document.open();
 
         PdfPTable table = new PdfPTable(layout.getColumnCount());

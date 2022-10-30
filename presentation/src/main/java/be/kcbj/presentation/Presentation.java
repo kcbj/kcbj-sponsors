@@ -35,7 +35,7 @@ import j2html.tags.ContainerTag;
 
 public class Presentation {
 
-    private static final int DELAY_IN_MILLIS = 0;
+    private static final int DELAY_IN_MILLIS = 10_000;
 
     private static final String DEST = "build/presentation/index.html";
 
