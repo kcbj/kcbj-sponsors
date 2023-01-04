@@ -28,9 +28,8 @@
       "address": "www.debruyn-nv.be"
     },
     {
-      "image": "detumkens.jpg",
-      "imageWidth": 64,
-      "name": "\nCafetaria"
+      "image": "detumkens.png",
+      "imageWidth": 80
     },
     {
       "twoRows": true,
