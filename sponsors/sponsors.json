@@ -33,17 +33,17 @@
     },
     {
       "twoRows": true,
-      "image": "myteam.png",
-      "imageWidth": 84,
-      "address": "Martelarenstraat 36-40",
-      "address2": "Aarschot"
-    },
-    {
-      "twoRows": true,
       "image": "vanpraet.jpg",
       "imageWidth": 80,
       "name2": "Brood & Banket",
       "address": "Prof. Scharpélaan 12",
+      "address2": "Betekom"
+    },
+    {
+      "twoRows": true,
+      "image": "clubhuis.png",
+      "imageWidth": 84,
+      "address": "Prof. Scharpélaan 13",
       "address2": "Betekom"
     },
     {
@@ -65,10 +65,8 @@
     },
     {
       "twoRows": true,
-      "image": "bress.png",
-      "imageHeight": 60,
-      "address": "Belgian Real\nEstate Services",
-      "address2": "www.bress.be"
+      "name": "Uw reclame hier?",
+      "address": "sponsoring@kcbj.be"
     },
     {
       "twoRows": true,
@@ -96,15 +94,15 @@
     },
     {
       "twoRows": true,
-      "image": "clubhuis.png",
-      "imageWidth": 84,
-      "address": "Prof. Scharpélaan 13",
-      "address2": "Betekom"
+      "name": "Uw reclame hier?",
+      "address": "sponsoring@kcbj.be"
     },
     {
       "twoRows": true,
-      "name": "Uw reclame hier?",
-      "address": "sponsoring@kcbj.be"
+      "image": "apotheek-philips.png",
+      "imageWidth": 72,
+      "address": "Pastoor Pitelaan 25",
+      "address2": "Betekom"
     },
     {
       "name": "Plankenbrug",
@@ -158,18 +156,10 @@
       "imageHeight": 54
     },
     {
-      "name": "Uw reclame hier?",
-      "address": "sponsoring@kcbj.be"
-    },
-    {
       "name": "Taverne",
       "name2": "De Pelgrim",
       "address": "Werchtersesteenweg 44",
       "address2": "Betekom"
-    },
-    {
-      "name": "Uw reclame hier?",
-      "address": "sponsoring@kcbj.be"
     },
     {
       "name": "Crèmelie",
@@ -181,6 +171,11 @@
       "name2": "Hout & Doe-Het-Zelf",
       "address": "Liersesteenweg 130",
       "address2": "Begijnendijk"
+    },
+    {
+      "twoColumns": true,
+      "image": "vermarc.png",
+      "imageHeight": 30
     },
     {
       "image": "garage-thierry-de-roover.jpg",
