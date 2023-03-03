@@ -22,10 +22,8 @@
     },
     {
       "twoColumns": true,
-      "imageHeight": 28,
-      "image": "de-bruyn.png",
-      "name": "Centrale Verwarming",
-      "address": "www.debruyn-nv.be"
+      "imageHeight": 56,
+      "image": "de-bruyn.png"
     },
     {
       "image": "detumkens.png",
@@ -33,11 +31,8 @@
     },
     {
       "twoRows": true,
-      "image": "vanpraet.jpg",
-      "imageWidth": 80,
-      "name2": "Brood & Banket",
-      "address": "Prof. Scharpélaan 12",
-      "address2": "Betekom"
+      "name": "Uw reclame hier?",
+      "address": "sponsoring@kcbj.be"
     },
     {
       "twoRows": true,
