@@ -30,9 +30,8 @@
       "imageWidth": 80
     },
     {
-      "twoRows": true,
-      "name": "Uw reclame hier?",
-      "address": "sponsoring@kcbj.be"
+      "image": "partis-rentalis.png",
+      "imageWidth": 90
     },
     {
       "twoRows": true,
@@ -59,9 +58,8 @@
       "address2": "Betekom"
     },
     {
-      "twoRows": true,
-      "name": "Uw reclame hier?",
-      "address": "sponsoring@kcbj.be"
+      "image": "reves.png",
+      "imageWidth": 72
     },
     {
       "twoRows": true,
@@ -71,10 +69,16 @@
       "imageWidth": 84
     },
     {
-      "name": "Boomkwekerij - Tuinaanleg",
-      "name2": "De Bruyn",
-      "address": "Vennestraat 6A",
-      "address2": "Begijnendijk"
+      "name": "Fiets & Tuincentrum",
+      "name2": "Meirhaeghe - Van Woensel",
+      "address": "Varentstraat 21",
+      "address2": "Werchter"
+    },
+    {
+      "name": "Taverne",
+      "name2": "De Pelgrim",
+      "address": "Werchtersesteenweg 44",
+      "address2": "Betekom"
     },
     {
       "twoColumns": true,
@@ -100,10 +104,13 @@
       "address2": "Betekom"
     },
     {
-      "name": "Plankenbrug",
-      "name2": "Brood-Banket-Charcuterie",
-      "address": "Plankenbrug 25",
-      "address2": "Begijnendijk"
+      "name": "Uw reclame hier?",
+      "address": "sponsoring@kcbj.be"
+    },
+    {
+      "name": "Pizza Party At Home",
+      "address": " Betekomsestraat 102",
+      "address2": " Baal"
     },
     {
       "name": "Crauwels Banden",
@@ -151,15 +158,12 @@
       "imageHeight": 54
     },
     {
-      "name": "Taverne",
-      "name2": "De Pelgrim",
-      "address": "Werchtersesteenweg 44",
-      "address2": "Betekom"
+      "image": "cremelie.png",
+      "imageWidth": 84
     },
     {
-      "name": "Crèmelie",
-      "address": "Werchtersesteenweg 84",
-      "address2": "Betekom"
+      "image": "gedimat-de-roover.png",
+      "imageWidth": 84
     },
     {
       "name": "Van Rompaey",
@@ -173,14 +177,14 @@
       "imageHeight": 30
     },
     {
-      "image": "garage-thierry-de-roover.jpg",
-      "imageWidth": 92
-    },
-    {
       "name": "Enjoy Drinks",
       "name2": "Het Tolhuis",
       "address": "Tremelosesteenweg 160",
       "address2": "Betekom"
+    },
+    {
+      "image": "garage-thierry-de-roover.jpg",
+      "imageWidth": 92
     },
     {
       "image": "euro-decor.png",
@@ -201,9 +205,10 @@
       "imageWidth": 100
     },
     {
-      "name": "Benny Bries",
-      "name2": "Koeltechnieken",
-      "address2": "Begijnendijk"
+      "name": "Tuinmachines",
+      "name2": "Belmaco",
+      "address": "Betekomsesteenweg 99",
+      "address2": "Aarschot"
     },
     {
       "twoColumns": true,
