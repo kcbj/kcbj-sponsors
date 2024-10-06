@@ -16,9 +16,8 @@
       "address": "Tremelosesteenweg 30\nBetekom\n0493 69 76 87"
     },
     {
-      "image": "kbc.png",
-      "imageWidth": 56,
-      "name": "\nBetekom - Begijnendijk"
+      "image": "gedimat-de-roover.png",
+      "imageWidth": 84
     },
     {
       "twoColumns": true,
@@ -26,8 +25,8 @@
       "image": "de-bruyn.png"
     },
     {
-      "image": "detumkens.png",
-      "imageWidth": 80
+      "image": "cremelie.png",
+      "imageWidth": 84
     },
     {
       "image": "partis-rentalis.png",
@@ -35,9 +34,9 @@
     },
     {
       "twoRows": true,
-      "image": "clubhuis.png",
-      "imageWidth": 84,
-      "address": "Prof. Scharpélaan 13",
+      "image": "apotheek-philips.png",
+      "imageWidth": 72,
+      "address": "Pastoor Pitelaan 25",
       "address2": "Betekom"
     },
     {
@@ -58,8 +57,8 @@
       "address2": "Betekom"
     },
     {
-      "image": "reves.png",
-      "imageWidth": 72
+      "image": "euro-decor.png",
+      "imageWidth": 100
     },
     {
       "twoRows": true,
@@ -92,25 +91,23 @@
       "address2": "Betekom"
     },
     {
-      "twoRows": true,
-      "name": "Uw reclame hier?",
-      "address": "sponsoring@kcbj.be"
+      "name": "Van Rompaey",
+      "name2": "Hout & Doe-Het-Zelf",
+      "address": "Liersesteenweg 130",
+      "address2": "Begijnendijk"
     },
     {
       "twoRows": true,
-      "image": "apotheek-philips.png",
-      "imageWidth": 72,
-      "address": "Pastoor Pitelaan 25",
+      "image": "clubhuis.png",
+      "imageWidth": 84,
+      "address": "Prof. Scharpélaan 13",
       "address2": "Betekom"
     },
     {
-      "name": "Uw reclame hier?",
-      "address": "sponsoring@kcbj.be"
-    },
-    {
-      "name": "Pizza Party At Home",
-      "address": " Betekomsestraat 102",
-      "address2": " Baal"
+      "name": "Tuinmachines",
+      "name2": "Belmaco",
+      "address": "Betekomsesteenweg 99",
+      "address2": "Aarschot"
     },
     {
       "name": "Crauwels Banden",
@@ -125,8 +122,17 @@
     {
       "name": "Delvora",
       "name2": "Pralines - Chocolade",
-      "address": "Prof. Scharpélaan 25",
-      "address2": "Betekom"
+      "address": "Haachtsesteenweg 6",
+      "address2": "Werchter"
+    },
+    {
+      "name": "Pizza Party At Home",
+      "address": " Betekomsestraat 102",
+      "address2": " Baal"
+    },
+    {
+      "name": "Uw reclame hier?",
+      "address": "sponsoring@kcbj.be"
     },
     {
       "twoColumns": true,
@@ -158,18 +164,13 @@
       "imageHeight": 54
     },
     {
-      "image": "cremelie.png",
-      "imageWidth": 84
+      "twoColumns": true,
+      "imageWidth": 180,
+      "image": "vbm.png"
     },
     {
-      "image": "gedimat-de-roover.png",
-      "imageWidth": 84
-    },
-    {
-      "name": "Van Rompaey",
-      "name2": "Hout & Doe-Het-Zelf",
-      "address": "Liersesteenweg 130",
-      "address2": "Begijnendijk"
+      "name": "Uw reclame hier?",
+      "address": "sponsoring@kcbj.be"
     },
     {
       "twoColumns": true,
@@ -181,34 +182,6 @@
       "name2": "Het Tolhuis",
       "address": "Tremelosesteenweg 160",
       "address2": "Betekom"
-    },
-    {
-      "image": "garage-thierry-de-roover.jpg",
-      "imageWidth": 92
-    },
-    {
-      "image": "euro-decor.png",
-      "imageWidth": 100
-    },
-    {
-      "twoColumns": true,
-      "imageWidth": 180,
-      "image": "vbm.png"
-    },
-    {
-      "name": "'t Coiffeuseke",
-      "address": "0477 69 98 95"
-    },
-    {
-      "twoColumns": true,
-      "image": "omeyocan.png",
-      "imageWidth": 100
-    },
-    {
-      "name": "Tuinmachines",
-      "name2": "Belmaco",
-      "address": "Betekomsesteenweg 99",
-      "address2": "Aarschot"
     },
     {
       "twoColumns": true,
