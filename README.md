@@ -7,13 +7,12 @@
 
 ## How to use?
 
- 1. Update sponsors in [`sponsors/sponsors.json`](https://github.com/litrik/kcbj-sponsors/blob/master/sponsors/sponsors.json).
- 2. Execute
-```
-    ./gradlew run
-```
- 3. PDF file is generated in `placemat/build/placemat.pdf`
- 3. HTML presentation is generated in `presentation/build/presentation`
+1. Clone the repo with the `--recursive` parameter, e.g. `git clone --recursive git@github.com:kcbj/kcbj-sponsors.git`
+2. Execute `cd kcbj-sponsors`
+3. Update sponsors in [`sponsors/sponsors.json`](https://github.com/litrik/kcbj-sponsors/blob/master/sponsors/sponsors.json).
+4. Execute `./gradlew run`
+5. The PDF file is generated in `placemat/build/placemat.pdf`
+6. The HTML presentation is generated in `presentation/build/presentation`
 
 ## License
 
