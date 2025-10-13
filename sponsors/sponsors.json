@@ -8,29 +8,17 @@
       "address": "Prof. Scharpélaan 19"
     },
     {
+      "twoColumns": true,
+      "imageHeight": 56,
+      "image": "de-bruyn.png"
+    },
+    {
       "twoRows": true,
       "image": "pizza-roberto.png",
       "imageWidth": 84,
       "name": "woe, vrij en zon",
       "name2": "16u30 - 20u30",
       "address": "Tremelosesteenweg 30\nBetekom\n0493 69 76 87"
-    },
-    {
-      "image": "gedimat-de-roover.png",
-      "imageWidth": 84
-    },
-    {
-      "twoColumns": true,
-      "imageHeight": 56,
-      "image": "de-bruyn.png"
-    },
-    {
-      "image": "cremelie.png",
-      "imageWidth": 84
-    },
-    {
-      "image": "partis-rentalis.png",
-      "imageWidth": 90
     },
     {
       "twoRows": true,
@@ -40,25 +28,9 @@
       "address2": "Betekom"
     },
     {
-      "name": "Garage Wouters",
-      "name2": "Toyota - Suzuki",
-      "address": "Liersesteenweg 309",
-      "address2": "Begijnendijk"
-    },
-    {
       "twoColumns": true,
       "image": "kcbj_logo.png",
       "imageHeight": 60
-    },
-    {
-      "name": "Ver Elst",
-      "name2": "Bloemenspeciaalzaak",
-      "address": "Prof. Scharpélaan 3",
-      "address2": "Betekom"
-    },
-    {
-      "image": "euro-decor.png",
-      "imageWidth": 100
     },
     {
       "twoRows": true,
@@ -68,69 +40,16 @@
       "imageWidth": 84
     },
     {
-      "name": "Fiets & Tuincentrum",
-      "name2": "Meirhaeghe - Van Woensel",
-      "address": "Varentstraat 21",
-      "address2": "Werchter"
-    },
-    {
-      "name": "Taverne",
-      "name2": "De Pelgrim",
-      "address": "Werchtersesteenweg 44",
-      "address2": "Betekom"
-    },
-    {
       "twoColumns": true,
       "image": "miscanthus.png",
       "imageWidth": 130
     },
     {
-      "name": "Gebr. Van Reeth",
-      "name2": "Dak - Sanitair",
-      "address": "Prof. Scharpélaan 108",
-      "address2": "Betekom"
-    },
-    {
-      "name": "Van Rompaey",
-      "name2": "Hout & Doe-Het-Zelf",
-      "address": "Liersesteenweg 130",
-      "address2": "Begijnendijk"
-    },
-    {
-      "twoRows": true,
+      "twoColumns": true,
       "image": "clubhuis.png",
-      "imageWidth": 84,
+      "imageWidth": 110,
       "address": "Prof. Scharpélaan 13",
       "address2": "Betekom"
-    },
-    {
-      "name": "Uw reclame hier?",
-      "address": "sponsoring@kcbj.be"
-    },
-    {
-      "name": "Crauwels Banden",
-      "address": "Liersesteenweg 136",
-      "address2": "Begijnendijk"
-    },
-    {
-      "name": "Hair, Skin & Body",
-      "address": "Pater Damiaanstraat 12",
-      "address2": "Betekom"
-    },
-    {
-      "name": "Delvora",
-      "name2": "Pralines - Chocolade",
-      "address": "Haachtsesteenweg 6",
-      "address2": "Werchter"
-    },
-    {
-      "name": "Pizza Party At Home",
-      "address": " Betekomsestraat 102",
-      "address2": " Baal"
-    },
-    {
-      "name": "Uw reclame hier?",
-      "address": "sponsoring@kcbj.be"
     },
     {
       "twoColumns": true,
@@ -138,23 +57,11 @@
       "imageHeight": 58
     },
     {
-      "name": "Ruitenwasser",
-      "name2": "De Wachter",
-      "address": "Raystraat 30",
-      "address2": "Betekom"
-    },
-    {
       "twoColumns": true,
       "image": "norio.png",
       "imageWidth": 150,
       "name": "Build better Android apps",
       "address": "www.norio.be"
-    },
-    {
-      "name": "Gebroeders Nijs",
-      "name2": "Loon- en grondwerken",
-      "address": "Tremelosesteenweg 55",
-      "address2": "Betekom"
     },
     {
       "twoColumns": true,
@@ -167,19 +74,19 @@
       "image": "vbm.png"
     },
     {
-      "name": "Uw reclame hier?",
-      "address": "sponsoring@kcbj.be"
-    },
-    {
       "twoColumns": true,
       "image": "vermarc.png",
       "imageHeight": 30
     },
     {
-      "name": "Enjoy Drinks",
-      "name2": "Het Tolhuis",
-      "address": "Tremelosesteenweg 160",
-      "address2": "Betekom"
+      "twoColumns": true,
+      "image": "devrandom.png",
+      "imageWidth": 160
+    },
+    {
+      "twoColumns": true,
+      "image": "boomkwekerij-de-bruyn.png",
+      "imageWidth": 180
     },
     {
       "twoColumns": true,
