@@ -1,11 +1,12 @@
 {
   "sponsors": [
     {
-      "twoRows": true,
-      "image": "proxy.png",
       "imageWidth": 84,
-      "name": "Betekom",
-      "address": "Prof. Scharpélaan 19"
+      "image": "eagle-ice.png"
+    },
+    {
+      "image": "kcbj_logo.png",
+      "imageHeight": 60
     },
     {
       "twoColumns": true,
@@ -29,15 +30,20 @@
     },
     {
       "twoColumns": true,
-      "image": "kcbj_logo.png",
-      "imageHeight": 60
+      "image": "proxy.png",
+      "imageWidth": 130,
+      "name": "Betekom",
+      "address": "Prof. Scharpélaan 19"
     },
     {
-      "twoRows": true,
       "image": "twittoreke.png",
       "address": "Ter Heidelaan 97",
       "address2": "Aarschot",
       "imageWidth": 84
+    },
+    {
+      "imageWidth": 84,
+      "image": "daenens.png"
     },
     {
       "twoColumns": true,
